@@ -119,6 +119,13 @@ export default function HomePage() {
               , and read some of my creative{" "}
               <Link href="/writing" className="underline text-[#1abc9c]">writing</Link>.
             </p>
+            <Link
+              href="/story"
+              className="mt-6 inline-block border border-[#1abc9c] text-[#1abc9c] px-6 py-2.5 text-xs font-medium hover:bg-[#1abc9c] hover:text-white transition-colors"
+              style={{ fontFamily: "var(--font-space-mono)" }}
+            >
+              Read my Story
+            </Link>
           </div>
         </div>
       </section>
