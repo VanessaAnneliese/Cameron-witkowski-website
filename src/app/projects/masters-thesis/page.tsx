@@ -65,8 +65,8 @@ export default function MastersThesisPage() {
         <h2 className="text-2xl font-bold text-[#2c3e50] mt-10 mb-4">Status</h2>
         <p className="mb-4">
           This project is currently on hold. Midway through my Master&apos;s degree, I made the
-          decision to step away from academia and pursue the frontier of AI directly — founding a
-          startup called{" "}
+          decision to step away from academia and pursue the frontier of AI directly — co-founding a start-up called
+          {" "}
           <a href="https://breadtechnologies.com" target="_blank" rel="noopener noreferrer" className="text-[#1abc9c] hover:underline">
             Bread Technologies
           </a>
