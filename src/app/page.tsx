@@ -280,7 +280,7 @@ export default function HomePage() {
               the University of Toronto and the California Institute of Technology.
             </p>
             <a
-              href="https://agi-society.com"
+              href="https://www.societyforagi.com"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block border border-[#1abc9c] text-[#1abc9c] px-6 py-2.5 text-sm font-medium hover:bg-[#1abc9c] hover:text-white transition-colors"
