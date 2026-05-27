@@ -100,18 +100,20 @@ export default function HomePage() {
             className="w-full h-full bg-black flex flex-col items-center justify-center px-16 text-center"
             style={{ clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)" }}
           >
-            <h1
-              className="text-white font-bold leading-tight mb-4"
-              style={{ fontFamily: "var(--font-playfair)", fontSize: "clamp(2rem, 4.5vw, 3.4rem)" }}
-            >
-              I&apos;m<br />Cameron<br />Witkowski
-            </h1>
-            <p
-              className="text-white text-sm leading-loose px-4"
-              style={{ fontFamily: "var(--font-space-mono)", fontSize: "0.9rem" }}
-            >
-              Building at the frontier of AI. Exploring the nature of intelligence. Welcome to my corner of the internet.
-            </p>
+            <div style={{ transform: "translateY(-8%)" }} className="flex flex-col items-center text-center">
+              <h1
+                className="text-white font-bold leading-tight mb-4"
+                style={{ fontFamily: "var(--font-playfair)", fontSize: "clamp(2rem, 4.5vw, 3.4rem)" }}
+              >
+                I&apos;m<br />Cameron<br />Witkowski
+              </h1>
+              <p
+                className="text-white text-sm leading-loose px-4"
+                style={{ fontFamily: "var(--font-space-mono)", fontSize: "0.9rem" }}
+              >
+                Building at the frontier of AI. Exploring the nature of intelligence. Welcome to my corner of the internet.
+              </p>
+            </div>
           </div>
         </div>
       </section>
