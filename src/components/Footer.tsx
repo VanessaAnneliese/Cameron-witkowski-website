@@ -30,11 +30,15 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Home */}
+          {/* Home + Start-ups */}
           <div>
             <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">Home</p>
-            <ul className="space-y-2">
+            <ul className="space-y-2 mb-6">
               <li><Link href="/story" className="text-gray-400 text-sm hover:text-[#1abc9c] transition-colors">My Story</Link></li>
+            </ul>
+            <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">Start-ups</p>
+            <ul className="space-y-2">
+              <li><a href="https://aibread.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 text-sm hover:text-[#1abc9c] transition-colors">Bread Technologies Inc.</a></li>
             </ul>
           </div>
 
