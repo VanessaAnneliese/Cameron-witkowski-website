@@ -200,7 +200,7 @@ export default function HomePage() {
                 Inspired by{" "}
                 <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank" rel="noopener noreferrer" className="text-[#1abc9c] hover:underline">Conway&apos;s Game of Life</a>,{" "}
                 <a href="https://distill.pub/2020/growing-ca/" target="_blank" rel="noopener noreferrer" className="text-[#1abc9c] hover:underline">neural cellular automata</a>, and{" "}
-                <a href="https://nature.com/articles/s41586-021-03819-2" target="_blank" rel="noopener noreferrer" className="text-[#1abc9c] hover:underline">Alphafold</a>,
+                <a href="https://www.nature.com/articles/s41586-021-03819-2" target="_blank" rel="noopener noreferrer" className="text-[#1abc9c] hover:underline">Alphafold</a>,
                 {" "}this project aims to answer how complex, 3D structures can form by simple, local interaction rules.
               </p>
             </div>
