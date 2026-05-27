@@ -32,9 +32,13 @@ export default function MyStoryPage() {
             engineering for its integration of these fields with design and creation. After two years of
             general subject matter in the Engineering Science program, I decided to specialize in
             robotics for its synthesis of many different fields, including AI. I see a future marked by
-            the widespread use of engineered, intelligent systems. As I look to the future, I hope to
-            march straight to the frontier. All in all, what I plan to do with my life stems from my
-            very conception of what life is.
+            the widespread use of engineered, intelligent systems. Partway through a Master&apos;s degree
+            in Electrical and Computer Engineering, I left academia to march straight to that frontier —
+            co-founding{" "}
+            <a href="https://aibread.com" target="_blank" rel="noopener noreferrer">Bread Technologies</a>,
+            an AI start-up backed by Menlo Ventures, building tools that help businesses understand how
+            AI systems describe and recommend them. All in all, what I plan to do with my life stems
+            from my very conception of what life is.
           </p>
           <p>
             Of course, there are many definitions, and everyone has their own view. There is the
