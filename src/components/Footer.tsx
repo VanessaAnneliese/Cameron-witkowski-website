@@ -62,10 +62,14 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Writing + Publications */}
+          {/* Publications + Writing */}
           <div>
-            <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">Writing</p>
+            <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">Publications</p>
             <ul className="space-y-2 mb-6">
+              <li><Link href="/publications" className="text-gray-400 text-sm hover:text-[#1abc9c] transition-colors">All Publications</Link></li>
+            </ul>
+            <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">Writing</p>
+            <ul className="space-y-2">
               {[
                 { label: "Logic as Space", href: "/writing/logic-as-space" },
                 { label: "Some Ideas About Things", href: "/writing/some-ideas-about-things" },
@@ -75,10 +79,6 @@ export default function Footer() {
                   <Link href={l.href} className="text-gray-400 text-sm hover:text-[#1abc9c] transition-colors">{l.label}</Link>
                 </li>
               ))}
-            </ul>
-            <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">Publications</p>
-            <ul className="space-y-2">
-              <li><Link href="/publications" className="text-gray-400 text-sm hover:text-[#1abc9c] transition-colors">All Publications</Link></li>
             </ul>
           </div>
         </div>
