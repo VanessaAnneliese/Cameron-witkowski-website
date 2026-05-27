@@ -225,61 +225,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── MASTERS THESIS ── */}
-      <section className="py-16 px-6 bg-white border-t border-gray-100">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-1" style={{ fontFamily: "var(--font-playfair)" }}>Masters Thesis</h2>
-          <p className="text-gray-500 mb-10">A Mathematical Model of Morphogenesis</p>
-          <div className="grid md:grid-cols-2 gap-12 items-start">
-            <div>
-              {/* Video placeholder */}
-              <div className="bg-gray-300 aspect-video flex items-center justify-center rounded">
-                <svg className="w-16 h-16 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-              </div>
-              <div className="mt-4">
-                <Link href="/projects/masters-thesis" className="inline-block border border-[#1abc9c] text-[#1abc9c] px-6 py-2.5 text-sm font-medium hover:bg-[#1abc9c] hover:text-white transition-colors">
-                  Learn more
-                </Link>
-              </div>
-            </div>
-            <div>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                I built a simple mathematical formalism that captures a wide range of problems in
-                developmental biology, and that enables precise analysis of questions in embryology:
-              </p>
-              <ul className="space-y-2 mb-6">
-                {[
-                  "How do cells know when to stop dividing?",
-                  "How does differentiation govern structure?",
-                  "How does symmetry breaking occur?",
-                  "Etc.",
-                ].map((q) => (
-                  <li key={q} className="flex items-start gap-2 text-gray-700">
-                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-700 shrink-0" />
-                    {q}
-                  </li>
-                ))}
-              </ul>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                To demonstrate the ease and efficacy of the formalism, I built a Python engine to
-                simulate developmental trajectories and trained an equivariant neural network to learn
-                cellular interaction dynamics. The video on the left shows one simulation after the
-                network learned to form a spherical cellular shell.
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                Inspired by{" "}
-                <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank" rel="noopener noreferrer" className="text-[#1abc9c] hover:underline">Conway&apos;s Game of Life</a>,{" "}
-                <a href="https://distill.pub/2020/growing-ca/" target="_blank" rel="noopener noreferrer" className="text-[#1abc9c] hover:underline">neural cellular automata</a>, and{" "}
-                <a href="https://www.nature.com/articles/s41586-021-03819-2" target="_blank" rel="noopener noreferrer" className="text-[#1abc9c] hover:underline">Alphafold</a>,
-                {" "}this project aims to answer how complex, 3D structures can form by simple, local interaction rules.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* ── PODCAST ── */}
       <section className="py-16 px-6 bg-white border-t border-gray-100">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
@@ -371,6 +316,61 @@ export default function HomePage() {
             >
               Learn More
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── MASTERS THESIS ── */}
+      <section className="py-16 px-6 bg-white border-t border-gray-100">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold text-gray-900 mb-1" style={{ fontFamily: "var(--font-playfair)" }}>Masters Thesis</h2>
+          <p className="text-gray-500 mb-10">A Mathematical Model of Morphogenesis</p>
+          <div className="grid md:grid-cols-2 gap-12 items-start">
+            <div>
+              {/* Video placeholder */}
+              <div className="bg-gray-300 aspect-video flex items-center justify-center rounded">
+                <svg className="w-16 h-16 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </div>
+              <div className="mt-4">
+                <Link href="/projects/masters-thesis" className="inline-block border border-[#1abc9c] text-[#1abc9c] px-6 py-2.5 text-sm font-medium hover:bg-[#1abc9c] hover:text-white transition-colors">
+                  Learn more
+                </Link>
+              </div>
+            </div>
+            <div>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                I built a simple mathematical formalism that captures a wide range of problems in
+                developmental biology, and that enables precise analysis of questions in embryology:
+              </p>
+              <ul className="space-y-2 mb-6">
+                {[
+                  "How do cells know when to stop dividing?",
+                  "How does differentiation govern structure?",
+                  "How does symmetry breaking occur?",
+                  "Etc.",
+                ].map((q) => (
+                  <li key={q} className="flex items-start gap-2 text-gray-700">
+                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-gray-700 shrink-0" />
+                    {q}
+                  </li>
+                ))}
+              </ul>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                To demonstrate the ease and efficacy of the formalism, I built a Python engine to
+                simulate developmental trajectories and trained an equivariant neural network to learn
+                cellular interaction dynamics. The video on the left shows one simulation after the
+                network learned to form a spherical cellular shell.
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                Inspired by{" "}
+                <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank" rel="noopener noreferrer" className="text-[#1abc9c] hover:underline">Conway&apos;s Game of Life</a>,{" "}
+                <a href="https://distill.pub/2020/growing-ca/" target="_blank" rel="noopener noreferrer" className="text-[#1abc9c] hover:underline">neural cellular automata</a>, and{" "}
+                <a href="https://www.nature.com/articles/s41586-021-03819-2" target="_blank" rel="noopener noreferrer" className="text-[#1abc9c] hover:underline">Alphafold</a>,
+                {" "}this project aims to answer how complex, 3D structures can form by simple, local interaction rules.
+              </p>
+            </div>
           </div>
         </div>
       </section>
