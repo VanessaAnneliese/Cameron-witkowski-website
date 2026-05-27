@@ -121,7 +121,7 @@ export default function HomePage() {
             </p>
             <Link
               href="/story"
-              className="mt-6 inline-block border border-[#1abc9c] text-[#1abc9c] px-6 py-2.5 text-xs font-medium hover:bg-[#1abc9c] hover:text-white transition-colors"
+              className="mt-6 inline-block border border-white text-white px-6 py-2.5 text-xs font-medium hover:bg-white hover:text-black transition-colors"
               style={{ fontFamily: "var(--font-space-mono)" }}
             >
               Read my Story
