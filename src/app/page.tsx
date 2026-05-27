@@ -128,7 +128,7 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
             <Image
-              src="https://cameronwitkowski.com/wp-content/uploads/2023/03/intense_scaleddown-1.png"
+              src="/images/intense_scaleddown-1.png"
               alt="Cameron Witkowski"
               width={380}
               height={420}
@@ -219,7 +219,7 @@ export default function HomePage() {
           <div className="md:col-span-1 flex justify-center">
             <div className="w-full aspect-square bg-gray-100 flex items-center justify-center rounded">
               <Image
-                src="https://cameronwitkowski.com/wp-content/uploads/2024/09/new_logo.png"
+                src="/images/new_logo.png"
                 alt="Society for AGI logo"
                 width={220}
                 height={220}
@@ -278,7 +278,7 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="bg-gray-100 aspect-video flex items-center justify-center rounded overflow-hidden">
             <Image
-              src="https://cameronwitkowski.com/wp-content/uploads/2023/03/drone.png"
+              src="/images/drone.png"
               alt="Drone reactor inspection"
               width={480}
               height={300}
@@ -310,7 +310,7 @@ export default function HomePage() {
           {/* Neurons card */}
           <Link href="/projects/dynamics-of-probabilistic-neurons" className="group relative aspect-[4/3] overflow-hidden bg-gray-900 block">
             <Image
-              src="https://cameronwitkowski.com/wp-content/uploads/2023/03/brain_image.png"
+              src="/images/brain_image.png"
               alt="Emergent Dynamics of Probabilistic Neurons"
               fill
               className="object-cover opacity-60 group-hover:opacity-70 transition-opacity"
@@ -326,7 +326,7 @@ export default function HomePage() {
           {/* Logic as Space card */}
           <Link href="/writing/logic-as-space" className="group relative aspect-[4/3] overflow-hidden bg-purple-900 block">
             <Image
-              src="https://cameronwitkowski.com/wp-content/uploads/2023/02/brain-1.png"
+              src="/images/brain-1.png"
               alt="Logic as Space"
               fill
               className="object-cover opacity-80 group-hover:opacity-90 transition-opacity"
@@ -371,17 +371,17 @@ export default function HomePage() {
             <div className="grid grid-cols-3 gap-8 max-w-2xl">
               {[
                 {
-                  img: "https://cameronwitkowski.com/wp-content/uploads/2023/02/data-science-icon-teal-2.png",
+                  img: "/images/data-science-icon-teal-2.png",
                   title: "Experimental Data",
                   desc: "I collected and preprocessed over 330 million supervised examples sourced from GTEx cell-specific gene expression experiments.",
                 },
                 {
-                  img: "https://cameronwitkowski.com/wp-content/uploads/2023/02/data-science-icon-teal-3.png",
+                  img: "/images/data-science-icon-teal-3.png",
                   title: "Model Design",
                   desc: "I designed a new model for this data taking full advantage of mechanisms known to be important for transcription.",
                 },
                 {
-                  img: "https://cameronwitkowski.com/wp-content/uploads/2023/02/data-science-icon-teal-6.png",
+                  img: "/images/data-science-icon-teal-6.png",
                   title: "Training & Testing",
                   desc: "I trained my model repeatedly, keeping close track of its validation performance in order to optimize its architecture.",
                 },

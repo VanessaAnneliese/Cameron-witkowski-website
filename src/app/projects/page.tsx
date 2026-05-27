@@ -8,7 +8,7 @@ const projects = [
     title: "A Mathematical Model of Morphogenesis",
     description:
       "Integrating a biological understanding of transcription with an engineering & AI background, I present a novel approach to comprehensively model gene expression using cutting-edge machine learning techniques.",
-    image: "https://cameronwitkowski.com/wp-content/uploads/2023/02/data-science-icon-teal-2.png",
+    image: "/images/data-science-icon-teal-2.png",
   },
   {
     slug: "undergrad-thesis",
@@ -16,7 +16,7 @@ const projects = [
     title: "Gene Regulation Modeling",
     description:
       "Integrating a biological understanding of transcription with an engineering & AI background, I present a novel approach to comprehensively model gene expression using cutting-edge machine learning techniques.",
-    image: "https://cameronwitkowski.com/wp-content/uploads/2023/02/data-science-icon-teal-2.png",
+    image: "/images/data-science-icon-teal-2.png",
   },
   {
     slug: "drone-reactor-inspection",
@@ -24,7 +24,7 @@ const projects = [
     title: "Drone Reactor Inspection",
     description:
       "For my 4th year Capstone design project teamed with Ben Agro, Jerry Chen, and Connor Lee, we are designing drones for Nuclear Power Plant safety.",
-    image: "https://cameronwitkowski.com/wp-content/uploads/2023/03/drone.png",
+    image: "/images/drone.png",
   },
   {
     slug: "sexually-selected-computer-code",
@@ -32,7 +32,7 @@ const projects = [
     title: "Sexually Selected Computer Code",
     description:
       "A pioneering attempt to blur the line between the digital and biological realms using evolutionary algorithms inspired by DNA recombination through sexual selection.",
-    image: "https://cameronwitkowski.com/wp-content/uploads/2023/02/data-science-icon-teal-3.png",
+    image: "/images/data-science-icon-teal-3.png",
   },
   {
     slug: "dynamics-of-probabilistic-neurons",
@@ -40,7 +40,7 @@ const projects = [
     title: "Emergent Dynamics of Probabilistic Neurons",
     description:
       "In this project, I created an array of 8,000 neurons, each connected to their nearest neighbours, and ran a simulation to see what emergent structures form.",
-    image: "https://cameronwitkowski.com/wp-content/uploads/2023/02/data-science-icon-teal-6.png",
+    image: "/images/data-science-icon-teal-6.png",
   },
   {
     slug: "minimax-chess-engine",
@@ -48,7 +48,7 @@ const projects = [
     title: "Minimax Chess Engine",
     description:
       "A daunting exercise in pointers and memory management. The final engine can resolve a minimax search 5 moves deep in under 1 second.",
-    image: "https://cameronwitkowski.com/wp-content/uploads/2023/02/data-science-icon-teal-2.png",
+    image: "/images/data-science-icon-teal-2.png",
   },
   {
     slug: "telescope",
@@ -56,7 +56,7 @@ const projects = [
     title: "Newtonian Reflector Telescope",
     description:
       "For a science project in Grade 10 I designed and built a fully functioning Newtonian reflector telescope capable of observing Jupiter and its moons.",
-    image: "https://cameronwitkowski.com/wp-content/uploads/2023/03/front_scope.png",
+    image: "/images/front_scope.png",
   },
 ];
 

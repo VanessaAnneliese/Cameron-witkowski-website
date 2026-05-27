@@ -64,6 +64,25 @@ export default function SomeIdeasPage() {
             appear to. Like the laptop in your head in a vat, they still exist, but they do not exist
             as they appear to.
           </p>
+          {/* Hermann grid optical illusion */}
+          <div className="flex justify-center my-8">
+            <svg width="360" height="300" viewBox="0 0 360 300" xmlns="http://www.w3.org/2000/svg" aria-label="Hermann grid optical illusion">
+              <rect width="360" height="300" fill="white"/>
+              {Array.from({ length: 6 }).map((_, row) =>
+                Array.from({ length: 7 }).map((_, col) => (
+                  <rect
+                    key={`${row}-${col}`}
+                    x={10 + col * 50}
+                    y={10 + row * 47}
+                    width="38"
+                    height="35"
+                    fill="black"
+                  />
+                ))
+              )}
+            </svg>
+          </div>
+
           <p className="mb-4">
             While you can construct illusions and point out the failures of your senses, you have to cut
             them some slack! They are working tirelessly for you, and they are doing invaluable work.

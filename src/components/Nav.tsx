@@ -28,7 +28,7 @@ export default function Nav() {
     <nav className="bg-white border-b border-gray-100 sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
         {/* Logo */}
-        <Link href="/" className="font-bold text-2xl text-black tracking-tight" style={{ fontFamily: "var(--font-inter)" }}>
+        <Link href="/" className="font-bold text-4xl text-black tracking-tight" style={{ fontFamily: "var(--font-playfair)" }}>
           C.S.W
         </Link>
 

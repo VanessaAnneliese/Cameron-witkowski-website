@@ -2,12 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 const images = [
-  { src: "https://cameronwitkowski.com/wp-content/uploads/2023/03/front_scope.png", alt: "Front view of the telescope" },
-  { src: "https://cameronwitkowski.com/wp-content/uploads/2023/03/assembeled_body.png", alt: "Assembled telescope body" },
-  { src: "https://cameronwitkowski.com/wp-content/uploads/2023/03/IMG_2563-scaled.jpg", alt: "Telescope construction" },
-  { src: "https://cameronwitkowski.com/wp-content/uploads/2023/03/jupiter_rings.png", alt: "Jupiter — you can make out its bands!" },
-  { src: "https://cameronwitkowski.com/wp-content/uploads/2023/03/jupiters_moons.png", alt: "Jupiter and its moons" },
-  { src: "https://cameronwitkowski.com/wp-content/uploads/2023/03/moon_full.png", alt: "Full moon observation" },
+  { src: "/images/front_scope.png", alt: "Front view of the telescope" },
+  { src: "/images/assembeled_body.png", alt: "Assembled telescope body" },
+  { src: "/images/IMG_2563-scaled.jpg", alt: "Telescope construction" },
+  { src: "/images/jupiter_rings.png", alt: "Jupiter — you can make out its bands!" },
+  { src: "/images/jupiters_moons.png", alt: "Jupiter and its moons" },
+  { src: "/images/moon_full.png", alt: "Full moon observation" },
 ];
 
 export default function TelescopePage() {

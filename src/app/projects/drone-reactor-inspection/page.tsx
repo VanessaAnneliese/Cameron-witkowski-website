@@ -11,7 +11,7 @@ export default function DroneReactorPage() {
 
       <div className="flex justify-center mb-10">
         <Image
-          src="https://cameronwitkowski.com/wp-content/uploads/2023/03/drone.png"
+          src="/images/drone.png"
           alt="Drone project"
           width={400}
           height={300}

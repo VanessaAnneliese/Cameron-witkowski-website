@@ -9,7 +9,7 @@ export default function SexuallySelectedCodePage() {
 
       <div className="mb-10 flex justify-center">
         <Image
-          src="https://cameronwitkowski.com/wp-content/uploads/2023/03/Screenshot-2023-03-04-at-12.23.02-AM.png"
+          src="/images/Screenshot-2023-03-04-at-12.23.02-AM.png"
           alt="Sexually Selected Computer Code"
           width={600}
           height={400}
