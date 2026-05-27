@@ -94,10 +94,10 @@ export default function HomePage() {
         {/* Hexagon */}
         <div
           className="relative z-10 flex items-center justify-center"
-          style={{ width: 520, height: 520 }}
+          style={{ width: 660, height: 660 }}
         >
           <div
-            className="w-full h-full bg-black flex flex-col items-center justify-center px-12 text-center"
+            className="w-full h-full bg-black flex flex-col items-center justify-center px-20 text-center"
             style={{ clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)" }}
           >
             <h1
