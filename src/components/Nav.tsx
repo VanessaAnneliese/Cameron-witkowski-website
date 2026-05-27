@@ -36,12 +36,12 @@ export default function Nav() {
         {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-7 text-sm text-gray-600">
           <div className="relative" onMouseEnter={() => setHomeOpen(true)} onMouseLeave={() => setHomeOpen(false)}>
-            <button className="flex items-center gap-1 text-[#1abc9c] font-medium hover:text-[#16a085] transition-colors cursor-pointer">
+            <Link href="/" className="flex items-center gap-1 text-[#1abc9c] font-medium hover:text-[#16a085] transition-colors">
               Home
               <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd" />
               </svg>
-            </button>
+            </Link>
             {homeOpen && (
               <div className="absolute top-full left-0 bg-white border border-gray-200 rounded shadow-lg w-36 py-1 z-50">
                 <Link href="/story" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1abc9c] transition-colors">
