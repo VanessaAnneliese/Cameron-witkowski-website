@@ -45,20 +45,22 @@ export default function UndergradThesisPage() {
         </div>
 
         {/* Right: hexagon decorations */}
-        <div className="relative h-80 hidden md:block">
+        <div className="relative hidden md:block" style={{ height: "520px" }}>
           {/* Filled teal hexagon */}
           <div
-            className="absolute w-36 h-36 bg-[#1abc9c]"
+            className="absolute bg-[#1abc9c]"
             style={{
               clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
-              top: "10%",
-              left: "18%",
+              width: "160px",
+              height: "160px",
+              top: "28%",
+              left: "12%",
             }}
           />
           {/* Outline hexagon (SVG) */}
           <svg
             className="absolute"
-            style={{ top: "0%", right: "0%", width: "260px", height: "260px" }}
+            style={{ top: "0", right: "0", width: "300px", height: "300px" }}
             viewBox="0 0 100 100"
             fill="none"
           >
@@ -74,17 +76,16 @@ export default function UndergradThesisPage() {
             className="absolute overflow-hidden"
             style={{
               clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
-              width: "220px",
-              height: "220px",
-              bottom: "0%",
-              right: "5%",
+              width: "390px",
+              height: "390px",
+              bottom: "-60px",
+              right: "-20px",
             }}
           >
-            <Image
+            <img
               src="/images/data-science-074.png"
               alt="Data science"
-              fill
-              className="object-cover grayscale"
+              style={{ width: "100%", height: "100%", objectFit: "cover", filter: "grayscale(100%)" }}
             />
           </div>
         </div>
