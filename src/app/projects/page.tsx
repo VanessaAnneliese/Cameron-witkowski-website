@@ -71,7 +71,7 @@ export default function ProjectsPage() {
           <Link
             key={p.slug}
             href={`/projects/${p.slug}`}
-            className="group bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+            className="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
           >
             <div className="p-6 flex items-center justify-center h-40">
               <Image
