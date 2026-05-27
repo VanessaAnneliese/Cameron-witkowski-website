@@ -8,7 +8,7 @@ export default function MyStoryPage() {
       {/* Title — centered, large, Space Mono */}
       <h1
         className="text-center font-bold mb-16"
-        style={{ fontFamily: "var(--font-space-mono)", fontSize: "clamp(3rem, 8vw, 5.5rem)", lineHeight: 1.1 }}
+        style={{ fontFamily: "var(--font-playfair)", fontSize: "clamp(3rem, 8vw, 5.5rem)", lineHeight: 1.1 }}
       >
         My Story
       </h1>
