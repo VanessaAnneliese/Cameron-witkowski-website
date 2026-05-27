@@ -7,8 +7,9 @@ export default function UndergradThesisPage() {
       {/* Hero */}
       <div className="mb-16">
         <div>
-          <h1 className="text-6xl font-bold text-[#2c3e50] leading-tight mb-8">
-            Undergraduate<br />Thesis
+          <p className="text-[#1abc9c] font-semibold uppercase tracking-wide text-sm mb-2">Undergraduate Thesis</p>
+          <h1 className="text-4xl font-bold text-[#2c3e50] mb-6">
+            A Novel Approach to Model Transcription in Humans
           </h1>
           <p className="max-w-3xl text-gray-700 leading-relaxed text-lg">
             I began this project in September, 2022 and finished it in April 2023.{" "}
