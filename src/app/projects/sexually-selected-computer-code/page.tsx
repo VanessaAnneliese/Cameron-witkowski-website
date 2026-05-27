@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function SexuallySelectedCodePage() {
@@ -5,6 +6,16 @@ export default function SexuallySelectedCodePage() {
     <div className="max-w-4xl mx-auto px-4 py-16">
       <p className="text-[#1abc9c] font-semibold uppercase tracking-wide text-sm mb-2">Research</p>
       <h1 className="text-4xl font-bold text-[#2c3e50] mb-6">Sexually Selected Computer Code</h1>
+
+      <div className="mb-10 flex justify-center">
+        <Image
+          src="https://cameronwitkowski.com/wp-content/uploads/2023/03/Screenshot-2023-03-04-at-12.23.02-AM.png"
+          alt="Sexually Selected Computer Code"
+          width={600}
+          height={400}
+          className="object-contain rounded"
+        />
+      </div>
 
       <div className="bg-[#f8f9fa] border-l-4 border-[#1abc9c] px-6 py-5 rounded-r mb-10">
         <p className="text-xl text-gray-700 italic">
