@@ -280,6 +280,29 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── PODCAST ── */}
+      <section className="py-16 px-6 bg-white border-t border-gray-100">
+        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <p
+              className="text-2xl text-gray-800 leading-relaxed text-center md:text-left"
+              style={{ fontFamily: "var(--font-playfair)" }}
+            >
+              I appeared on the Machine Learning Street Talk podcast with my friend Aman Bhargava.
+            </p>
+          </div>
+          <div className="aspect-video bg-gray-900 rounded overflow-hidden">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/Bpgloy1dDn0"
+              title="Machine Learning Street Talk — Mapping GPT revealed something strange"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      </section>
+
       {/* ── SOCIETY FOR AGI ── */}
       <section className="py-16 px-6 bg-white border-t border-gray-100">
         <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-10 items-center">
@@ -317,30 +340,6 @@ export default function HomePage() {
             >
               Visit our website
             </a>
-          </div>
-        </div>
-      </section>
-
-      {/* ── PODCAST ── */}
-      <section className="py-16 px-6 bg-white border-t border-gray-100">
-        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <p
-              className="text-2xl text-gray-800 leading-relaxed text-center md:text-left"
-              style={{ fontFamily: "var(--font-playfair)" }}
-            >
-              I appeared on the Machine Learning Street Talk podcast with my friend Aman Bhargava.
-            </p>
-          </div>
-          <div className="aspect-video bg-gray-900 rounded overflow-hidden">
-            {/* Replace VIDEO_ID with the actual YouTube video ID */}
-            <iframe
-              className="w-full h-full"
-              src="https://www.youtube.com/embed/Bpgloy1dDn0"
-              title="Machine Learning Street Talk — Mapping GPT revealed something strange"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
           </div>
         </div>
       </section>
