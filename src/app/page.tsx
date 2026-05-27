@@ -325,7 +325,12 @@ export default function HomePage() {
 
           {/* Logic as Space card */}
           <Link href="/writing/logic-as-space" className="group relative aspect-[4/3] overflow-hidden bg-purple-900 block">
-            <div className="absolute inset-0 bg-gradient-to-br from-purple-800 via-purple-600 to-pink-500 opacity-90" />
+            <Image
+              src="https://cameronwitkowski.com/wp-content/uploads/2023/02/ai-52b.png"
+              alt="Logic as Space"
+              fill
+              className="object-cover opacity-80 group-hover:opacity-90 transition-opacity"
+            />
             <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/60 to-transparent">
               <h3 className="text-white font-bold text-xl" style={{ fontFamily: "var(--font-playfair)" }}>
                 Logic as <em>Space</em>
