@@ -135,9 +135,11 @@ export default function HomePage() {
             </p>
             <p className="text-gray-700 text-lg leading-relaxed mb-4">
               At 18, I moved to Toronto to pursue a bachelor&apos;s degree in the Engineering Science
-              program at the University of Toronto, specializing in Robotics, and am now completing a
-              MASc in Electrical and Computer Engineering. In work, study, and leisure, my ultimate
-              passion is for life—real and artificial.
+              program at the University of Toronto, specializing in Robotics, and went on to begin a
+              MASc in Electrical and Computer Engineering. I left partway through to co-found{" "}
+              <a href="https://aibread.com" target="_blank" rel="noopener noreferrer">Bread Technologies</a>,
+              an AI startup backed by Menlo Ventures. In work, study, and leisure, my ultimate passion
+              is for life—real and artificial.
             </p>
             <Link
               href="/story"
