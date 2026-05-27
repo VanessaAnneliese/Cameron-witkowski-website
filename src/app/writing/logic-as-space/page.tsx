@@ -1,5 +1,22 @@
 import Link from "next/link";
 
+const lines = [
+  ["Make a point, to make a point.", "And extension, by extension."],
+  ["Now we have a line of reason,", "You agree on this dimension?"],
+  ["But complain that if I'm right,", "Surface findings are hot air."],
+  ["That won't be cor-rect to write,", "When we frame discussion there."],
+  ["Once we make a solid start,", "We add substance to my view."],
+  ["I will sketch out every part,", "Just the building's left to do."],
+  ["To construct an argument,", "Solid ground should be desired,"],
+  ["Premises fill in cement.", "A foundation is required."],
+  ["If it's based on something weak,", "If your statements aren't kept straight,"],
+  ["Hollow words are all you speak,", "Which will simply bear no weight."],
+  ["Gravity cannot be banned;", "Fortify to not be felled."],
+  ["Any error will not stand,", "Only truth will be upheld."],
+  ["Is this all coincidence?", "Two-fold meanings in each case?"],
+  ["Have I mixed up every sense?", "Is one outside time and space?"],
+];
+
 export default function LogicAsSpacePage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-16">
@@ -7,37 +24,13 @@ export default function LogicAsSpacePage() {
       <h1 className="text-4xl font-bold text-[#2c3e50] mb-3">Logic as Space</h1>
       <p className="text-gray-500 italic mb-12">A poem rethinking the realm of thought.</p>
 
-      <div className="prose prose-lg max-w-none">
-        <p className="text-gray-700 leading-relaxed mb-6">
-          The poem explores how the language of logic and the language of space are one and the same.
-          To make a <em>point</em> requires extending ideas into <em>lines</em> of reasoning. Arguments need
-          solid <em>ground</em> and proper <em>framing</em> to avoid being &ldquo;hollow.&rdquo;
-        </p>
-        <p className="text-gray-700 leading-relaxed mb-6">
-          Only truth-based arguments can withstand scrutiny — weak <em>premises</em> collapse.
-          The poem closes by questioning whether the recurring spatial language — <em>point</em>,
-          <em> extension</em>, <em>line</em>, <em>dimension</em>, <em>right</em>, <em>surface</em>,
-          <em> frame</em>, <em>solid</em>, <em>substance</em>, <em>construct</em>, <em>ground</em>,
-          <em> foundation</em>, <em>weight</em>, <em>gravity</em>, <em>stand</em>, <em>space</em> —
-          represents intentional layering of meaning.
-        </p>
-        <div className="bg-[#f8f9fa] border-l-4 border-[#1abc9c] px-6 py-5 rounded-r my-8">
-          <p className="text-gray-700 italic font-medium">
-            &ldquo;A <em>foundation</em> is required.&rdquo;
-          </p>
-        </div>
-        <p className="text-gray-500 text-sm mt-8">
-          The full poem is available on{" "}
-          <a
-            href="https://cameronwitkowski.com/logic-as-space/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#1abc9c] hover:text-[#16a085]"
-          >
-            cameronwitkowski.com
-          </a>
-          .
-        </p>
+      <div className="space-y-6">
+        {lines.map(([a, b], i) => (
+          <div key={i} className="leading-relaxed text-gray-700 text-lg font-serif">
+            <p>{a}</p>
+            <p>{b}</p>
+          </div>
+        ))}
       </div>
 
       <div className="mt-12 pt-8 border-t border-gray-200">
