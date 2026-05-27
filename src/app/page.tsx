@@ -108,7 +108,7 @@ export default function HomePage() {
             </h1>
             <p
               className="text-white text-sm leading-loose px-4"
-              style={{ fontFamily: "var(--font-space-mono)", fontSize: "0.72rem" }}
+              style={{ fontFamily: "var(--font-space-mono)", fontSize: "0.9rem" }}
             >
               Building at the frontier of AI. Exploring the nature of intelligence. Welcome to my corner of the internet.
             </p>
