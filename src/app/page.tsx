@@ -110,14 +110,7 @@ export default function HomePage() {
               className="text-white text-sm leading-loose px-4"
               style={{ fontFamily: "var(--font-space-mono)", fontSize: "0.72rem" }}
             >
-              Welcome to my website. Here you can read{" "}
-              <a href="#about" className="underline text-[#1abc9c]">about me</a>
-              , check out some cool{" "}
-              <Link href="/projects" className="underline text-[#1abc9c]">projects</Link>
-              {" "}I&apos;ve done, browse my{" "}
-              <Link href="/publications" className="underline text-[#1abc9c]">publications</Link>
-              , and read some of my creative{" "}
-              <Link href="/writing" className="underline text-[#1abc9c]">writing</Link>.
+              Building at the frontier of AI. Exploring the nature of intelligence. Welcome to my corner of the internet.
             </p>
           </div>
         </div>
