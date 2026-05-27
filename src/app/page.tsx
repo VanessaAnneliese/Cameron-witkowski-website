@@ -128,8 +128,8 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p
-              className="font-bold mb-6"
-              style={{ fontFamily: "var(--font-space-mono)", fontSize: "clamp(1.1rem, 2.2vw, 1.4rem)", lineHeight: 1.65 }}
+              className="font-bold mb-6 text-gray-500 italic"
+              style={{ fontFamily: "var(--font-playfair)", fontSize: "clamp(1.1rem, 2.2vw, 1.4rem)", lineHeight: 1.65 }}
             >
               I was born in Ajax and grew up in suburban Whitby, ON.
             </p>
