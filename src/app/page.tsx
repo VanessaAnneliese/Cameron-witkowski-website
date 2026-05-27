@@ -159,6 +159,72 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── BREAD TECHNOLOGIES ── */}
+      <section className="py-20 px-6 bg-[#2c3e50] relative overflow-hidden">
+        {/* Decorative teal hex */}
+        <svg className="absolute right-0 top-0 opacity-10 pointer-events-none" width="340" height="340" viewBox="0 0 100 100" fill="none">
+          <polygon points="50,5 95,27.5 95,72.5 50,95 5,72.5 5,27.5" stroke="#1abc9c" strokeWidth="2" fill="none" />
+        </svg>
+        <svg className="absolute left-8 bottom-0 opacity-10 pointer-events-none" width="180" height="180" viewBox="0 0 100 100" fill="none">
+          <polygon points="50,5 95,27.5 95,72.5 50,95 5,72.5 5,27.5" stroke="#1abc9c" strokeWidth="2" fill="none" />
+        </svg>
+
+        <div className="max-w-5xl mx-auto relative z-10">
+          <p className="text-[#1abc9c] font-semibold uppercase tracking-widest text-sm mb-3">Co-Founder & CEO</p>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
+            Bread Technologies
+          </h2>
+          <p className="text-gray-300 text-xl italic mb-10 max-w-2xl" style={{ fontFamily: "var(--font-playfair)" }}>
+            We believe AI is about to radically transform commerce on the web.
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-12 items-start">
+            <div className="space-y-5 text-gray-300 leading-relaxed text-lg">
+              <p>
+                AI systems are describing, comparing, and recommending businesses to customers
+                in conversations that analytics don&apos;t capture. 94% of B2B buyers now use
+                LLMs during purchase research — yet AI referrals account for just 1% of tracked
+                traffic. That gap is the problem we&apos;re solving.
+              </p>
+              <p>
+                At Bread, we build tools that give businesses visibility into how AI talks about
+                them. Our flagship product, <strong className="text-white">OpenLens</strong>, is
+                a free tool that reveals how AI systems discuss your business — and what you can
+                do about it.
+              </p>
+              <p>
+                We&apos;re a six-person team with backgrounds from U of T Engineering, Caltech,
+                AWS, Intel, and Georgia Tech, backed by <strong className="text-white">$5M seed
+                funding from Menlo Ventures</strong>.
+              </p>
+              <a
+                href="https://aibread.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-2 border border-[#1abc9c] text-[#1abc9c] px-8 py-3 text-xs font-semibold uppercase tracking-widest hover:bg-[#1abc9c] hover:text-white transition-colors"
+                style={{ fontFamily: "var(--font-space-mono)" }}
+              >
+                Visit Bread Technologies
+              </a>
+            </div>
+
+            <div className="grid grid-cols-2 gap-4">
+              {[
+                { stat: "$5M", label: "Seed round led by Menlo Ventures" },
+                { stat: "94%", label: "of B2B buyers use LLMs during purchase research" },
+                { stat: "6", label: "Person team from top engineering programs" },
+                { stat: "1%", label: "of AI referral traffic is currently tracked — we fix that" },
+              ].map(({ stat, label }) => (
+                <div key={stat} className="border border-gray-600 rounded-lg p-5">
+                  <p className="text-[#1abc9c] text-3xl font-bold mb-2" style={{ fontFamily: "var(--font-space-mono)" }}>{stat}</p>
+                  <p className="text-gray-400 text-sm leading-snug">{label}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── MASTERS THESIS ── */}
       <section className="py-16 px-6 bg-white border-t border-gray-100">
         <div className="max-w-5xl mx-auto">
