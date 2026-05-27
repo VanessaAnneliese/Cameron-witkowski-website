@@ -1,46 +1,99 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function UndergradThesisPage() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-16">
-      <p className="text-[#1abc9c] font-semibold uppercase tracking-wide text-sm mb-2">Undergraduate Thesis</p>
-      <h1 className="text-4xl font-bold text-[#2c3e50] mb-6">
-        A Novel Approach to Model Transcription in Humans
-      </h1>
+    <div className="max-w-6xl mx-auto px-4 py-16">
 
-      <div className="text-gray-700 space-y-6 leading-relaxed text-lg">
-        <p>
-          I began this project in September, 2022 and finished it in April 2023.{" "}
-          <a
-            href="http://cameronwitkowski.com/wp-content/uploads/2023/05/Thesis_Final_Report_1.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#1abc9c] hover:underline"
-          >
-            Read my complete work in my final report.
-          </a>{" "}
-          The code for this project can also be found on{" "}
-          <a
-            href="https://colab.research.google.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#1abc9c] hover:underline"
-          >
-            Colab
-          </a>{" "}
-          and{" "}
-          <a
-            href="https://github.com/Cameron7195/IBBME_TR300M_Project"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#1abc9c] hover:underline"
-          >
-            Github
-          </a>
-          . Below, I have written a brief introduction to some of the core ideas underpinning my work.
-        </p>
+      {/* Hero: two-column */}
+      <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
+        {/* Left: heading + intro */}
+        <div>
+          <h1 className="text-6xl font-bold text-[#2c3e50] leading-tight mb-8">
+            Undergraduate<br />Thesis
+          </h1>
+          <p className="text-gray-700 leading-relaxed text-lg">
+            I began this project in September, 2022 and finished it in April 2023.{" "}
+            <a
+              href="https://cameronwitkowski.com/wp-content/uploads/2023/05/Thesis_Final_Report_1.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#1abc9c] hover:underline"
+            >
+              Read my complete work in my final report.
+            </a>{" "}
+            The code for this project can also be found on{" "}
+            <a
+              href="https://colab.research.google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#1abc9c] hover:underline"
+            >
+              Colab
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://github.com/Cameron7195/IBBME_TR300M_Project"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#1abc9c] hover:underline"
+            >
+              Github
+            </a>
+            . Below, I have written a brief introduction to some of the core ideas underpinning my work.
+          </p>
+        </div>
 
-        <h2 className="text-2xl font-bold text-[#2c3e50] mt-10 mb-4">An Analogy for Transcription</h2>
+        {/* Right: hexagon decorations */}
+        <div className="relative h-80 hidden md:block">
+          {/* Filled teal hexagon */}
+          <div
+            className="absolute w-36 h-36 bg-[#1abc9c]"
+            style={{
+              clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
+              top: "10%",
+              left: "18%",
+            }}
+          />
+          {/* Outline hexagon (SVG) */}
+          <svg
+            className="absolute"
+            style={{ top: "0%", right: "0%", width: "260px", height: "260px" }}
+            viewBox="0 0 100 100"
+            fill="none"
+          >
+            <polygon
+              points="50,5 95,27.5 95,72.5 50,95 5,72.5 5,27.5"
+              stroke="#2c3e50"
+              strokeWidth="2.5"
+              fill="none"
+            />
+          </svg>
+          {/* Image hexagon */}
+          <div
+            className="absolute overflow-hidden"
+            style={{
+              clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
+              width: "220px",
+              height: "220px",
+              bottom: "0%",
+              right: "5%",
+            }}
+          >
+            <Image
+              src="/images/data-science-074.png"
+              alt="Data science"
+              fill
+              className="object-cover grayscale"
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Content */}
+      <div className="max-w-3xl text-gray-700 space-y-6 leading-relaxed text-lg">
+
+        <h2 className="text-2xl font-bold text-[#1abc9c] mt-4 mb-4">An Analogy for Transcription</h2>
         <p>
           Imagine that you are RNA Polymerase II and you are out, looking for a place to eat. The restaurant
           in this analogy represents a special region of DNA that you recognize as viable to bind to and
@@ -70,7 +123,7 @@ export default function UndergradThesisPage() {
           tool to approximate this equation effectively.
         </p>
 
-        <h2 className="text-2xl font-bold text-[#2c3e50] mt-10 mb-4">What is Transcription</h2>
+        <h2 className="text-2xl font-bold text-[#1abc9c] mt-10 mb-4">What is Transcription</h2>
         <p>
           Transcription is the first step that occurs in the production of proteins in the nucleus of every
           cell of your body. In this step, a large, complex molecule called RNA Polymerase II binds to your
