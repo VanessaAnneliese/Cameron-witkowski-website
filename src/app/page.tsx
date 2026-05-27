@@ -79,7 +79,7 @@ export default function HomePage() {
   return (
     <>
       {/* ── HERO ── */}
-      <section className="relative bg-white overflow-hidden min-h-[440px] flex items-center justify-center py-10">
+      <section className="relative bg-white overflow-hidden min-h-[340px] flex items-center justify-center py-10">
         {/* Decorations */}
         <div className="absolute top-0 left-0">
           <TealHexStripes />
@@ -94,21 +94,21 @@ export default function HomePage() {
         {/* Hexagon */}
         <div
           className="relative z-10 flex items-center justify-center"
-          style={{ width: 520, height: 520 }}
+          style={{ width: 390, height: 390 }}
         >
           <div
-            className="w-full h-full bg-black flex flex-col items-center justify-center px-16 text-center"
+            className="w-full h-full bg-black flex flex-col items-center justify-center px-12 text-center"
             style={{ clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)" }}
           >
             <h1
-              className="text-white font-bold leading-tight mb-4"
-              style={{ fontFamily: "var(--font-playfair)", fontSize: "clamp(1.8rem, 4.5vw, 3rem)" }}
+              className="text-white font-bold leading-tight mb-3"
+              style={{ fontFamily: "var(--font-playfair)", fontSize: "clamp(1.4rem, 3.5vw, 2.2rem)" }}
             >
               I&apos;m<br />Cameron<br />Witkowski
             </h1>
             <p
-              className="text-white text-sm leading-loose px-4"
-              style={{ fontFamily: "var(--font-space-mono)", fontSize: "0.72rem" }}
+              className="text-white leading-relaxed px-2 text-center"
+              style={{ fontFamily: "var(--font-space-mono)", fontSize: "0.6rem" }}
             >
               Building at the frontier of AI. Exploring the nature of intelligence. Welcome to my corner of the internet.
             </p>
