@@ -326,7 +326,7 @@ export default function HomePage() {
           {/* Logic as Space card */}
           <Link href="/writing/logic-as-space" className="group relative aspect-[4/3] overflow-hidden bg-purple-900 block">
             <Image
-              src="https://cameronwitkowski.com/wp-content/uploads/2023/02/ai-52b.png"
+              src="https://cameronwitkowski.com/wp-content/uploads/2023/02/brain-1.png"
               alt="Logic as Space"
               fill
               className="object-cover opacity-80 group-hover:opacity-90 transition-opacity"
