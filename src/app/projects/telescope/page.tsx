@@ -32,7 +32,7 @@ export default function TelescopePage() {
         <h2 className="text-2xl font-bold text-[#2c3e50] mt-10 mb-6">Gallery</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
           {images.map((img) => (
-            <div key={img.src} className="rounded-lg overflow-hidden bg-[#f8f9fa] aspect-square flex items-center justify-center">
+            <div key={img.src} className="rounded-lg overflow-hidden aspect-square flex items-center justify-center">
               <Image
                 src={img.src}
                 alt={img.alt}

@@ -217,7 +217,7 @@ export default function HomePage() {
             </h2>
           </div>
           <div className="md:col-span-1 flex justify-center">
-            <div className="w-full aspect-square bg-gray-100 flex items-center justify-center rounded">
+            <div className="w-full aspect-square flex items-center justify-center rounded">
               <Image
                 src="/images/new_logo.png"
                 alt="Society for AGI logo"
@@ -276,7 +276,7 @@ export default function HomePage() {
       {/* ── DRONE PROJECT ── */}
       <section className="py-16 px-6 bg-white border-t border-gray-100">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-          <div className="bg-gray-100 aspect-video flex items-center justify-center rounded overflow-hidden">
+          <div className="aspect-video flex items-center justify-center rounded overflow-hidden">
             <Image
               src="/images/drone.png"
               alt="Drone reactor inspection"
