@@ -73,7 +73,7 @@ export default function ProjectsPage() {
             href={`/projects/${p.slug}`}
             className="group bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
           >
-            <div className="p-6 flex items-center justify-center bg-[#f8f9fa] h-40">
+            <div className="p-6 flex items-center justify-center h-40">
               <Image
                 src={p.image}
                 alt={p.title}
