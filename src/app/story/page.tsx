@@ -48,7 +48,7 @@ export default function MyStoryPage() {
         </div>
         <div>
           <Image
-            src="/images/baby.jpg"
+            src="/images/baby_small.png"
             alt="Cameron as a child"
             width={500}
             height={400}
