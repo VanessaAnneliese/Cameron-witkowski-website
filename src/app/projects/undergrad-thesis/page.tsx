@@ -1,13 +1,11 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function UndergradThesisPage() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-16">
 
-      {/* Hero: two-column */}
-      <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
-        {/* Left: heading + intro */}
+      {/* Hero */}
+      <div className="mb-16">
         <div>
           <h1 className="text-6xl font-bold text-[#2c3e50] leading-tight mb-8">
             Undergraduate<br />Thesis
@@ -44,51 +42,6 @@ export default function UndergradThesisPage() {
           </p>
         </div>
 
-        {/* Right: hexagon decorations */}
-        <div className="relative hidden md:block" style={{ height: "520px" }}>
-          {/* Filled teal hexagon */}
-          <div
-            className="absolute bg-[#1abc9c]"
-            style={{
-              clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
-              width: "160px",
-              height: "160px",
-              top: "28%",
-              left: "12%",
-            }}
-          />
-          {/* Outline hexagon (SVG) */}
-          <svg
-            className="absolute"
-            style={{ top: "0", right: "0", width: "300px", height: "300px" }}
-            viewBox="0 0 100 100"
-            fill="none"
-          >
-            <polygon
-              points="50,5 95,27.5 95,72.5 50,95 5,72.5 5,27.5"
-              stroke="#2c3e50"
-              strokeWidth="2.5"
-              fill="none"
-            />
-          </svg>
-          {/* Image hexagon */}
-          <div
-            className="absolute overflow-hidden"
-            style={{
-              clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
-              width: "390px",
-              height: "390px",
-              bottom: "-60px",
-              right: "-20px",
-            }}
-          >
-            <img
-              src="/images/data-science-074.png"
-              alt="Data science"
-              style={{ width: "100%", height: "100%", objectFit: "cover", filter: "grayscale(100%)" }}
-            />
-          </div>
-        </div>
       </div>
 
       {/* Content */}
