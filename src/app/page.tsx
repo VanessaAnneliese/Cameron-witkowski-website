@@ -119,13 +119,6 @@ export default function HomePage() {
               , and read some of my creative{" "}
               <Link href="/writing" className="underline text-[#1abc9c]">writing</Link>.
             </p>
-            <Link
-              href="/story"
-              className="mt-6 inline-block border border-white text-white px-6 py-2.5 text-xs font-medium hover:bg-white hover:text-black transition-colors"
-              style={{ fontFamily: "var(--font-space-mono)" }}
-            >
-              Read my Story
-            </Link>
           </div>
         </div>
       </section>
@@ -133,29 +126,35 @@ export default function HomePage() {
       {/* ── ABOUT / BIO ── */}
       <section id="about" className="py-16 px-6 bg-white border-t border-gray-100">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <p
+              className="font-bold mb-6"
+              style={{ fontFamily: "var(--font-space-mono)", fontSize: "clamp(1.1rem, 2.2vw, 1.4rem)", lineHeight: 1.65 }}
+            >
+              I was born in Ajax and grew up in suburban Whitby, ON.
+            </p>
+            <p className="text-gray-700 text-lg leading-relaxed mb-4">
+              At 18, I moved to Toronto to pursue a bachelor&apos;s degree in the Engineering Science
+              program at the University of Toronto, specializing in Robotics, and am now completing a
+              MASc in Electrical and Computer Engineering. In work, study, and leisure, my ultimate
+              passion is for life—real and artificial.
+            </p>
+            <Link
+              href="/story"
+              className="mt-4 inline-block border border-[#1abc9c] text-[#1abc9c] px-8 py-3 text-xs font-semibold uppercase tracking-widest hover:bg-[#1abc9c] hover:text-white transition-colors"
+              style={{ fontFamily: "var(--font-space-mono)" }}
+            >
+              Read My Story
+            </Link>
+          </div>
           <div className="flex justify-center">
             <Image
-              src="/images/intense_scaleddown-1.png"
+              src="/images/linkedIn_shot.png"
               alt="Cameron Witkowski"
-              width={380}
-              height={420}
+              width={420}
+              height={520}
               className="object-cover rounded"
             />
-          </div>
-          <div>
-            <p className="text-gray-700 text-lg leading-relaxed mb-4">
-              I was born in Ajax and grew up in suburban Whitby, ON. I moved to Toronto at 18 to pursue
-              engineering studies, specializing in robotics at the University of Toronto, and I am
-              currently completing a Master&apos;s degree in Electrical and Computer Engineering.
-            </p>
-            <p className="text-gray-700 text-lg leading-relaxed">
-              In work, study, and leisure, my ultimate passion is for life—real and artificial.
-            </p>
-            <div className="mt-8 flex gap-5">
-              <a href="https://github.com/Cameron7195" target="_blank" rel="noopener noreferrer" className="text-[#1abc9c] hover:text-[#16a085] font-medium transition-colors">GitHub</a>
-              <a href="https://linkedin.com/in/cameron-witkowski/" target="_blank" rel="noopener noreferrer" className="text-[#1abc9c] hover:text-[#16a085] font-medium transition-colors">LinkedIn</a>
-              <a href="mailto:cwitkowski@rogers.com" className="text-[#1abc9c] hover:text-[#16a085] font-medium transition-colors">Email</a>
-            </div>
           </div>
         </div>
       </section>
