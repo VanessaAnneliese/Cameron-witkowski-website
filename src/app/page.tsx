@@ -291,37 +291,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── DRONE PROJECT ── */}
-      <section className="py-16 px-6 bg-white border-t border-gray-100">
-        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-          <div className="aspect-video flex items-center justify-center rounded overflow-hidden">
-            <Image
-              src="/images/drone.png"
-              alt="Drone reactor inspection"
-              width={480}
-              height={300}
-              className="object-contain p-6"
-            />
-          </div>
-          <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 leading-snug" style={{ fontFamily: "var(--font-playfair)" }}>
-              Drones to Ensure Nuclear Plant Safety in an Emergency
-            </h2>
-            <p className="text-gray-600 leading-relaxed mb-6">
-              For my 4th year Capstone design project teamed with Ben Agro, Jerry Chen, and Connor Lee
-              we designed drones using a wide range of hardware and software tools under the theme of
-              Nuclear Power Plant safety.
-            </p>
-            <Link
-              href="/projects/drone-reactor-inspection"
-              className="inline-block bg-[#1abc9c] text-white px-6 py-3 text-xs font-bold uppercase tracking-widest hover:bg-[#16a085] transition-colors"
-            >
-              Learn More
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* ── MASTERS THESIS ── */}
       <section className="py-16 px-6 bg-white border-t border-gray-100">
         <div className="max-w-5xl mx-auto">
@@ -373,6 +342,37 @@ export default function HomePage() {
                 {" "}this project aims to answer how complex, 3D structures can form by simple, local interaction rules.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── DRONE PROJECT ── */}
+      <section className="py-16 px-6 bg-white border-t border-gray-100">
+        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+          <div className="aspect-video flex items-center justify-center rounded overflow-hidden">
+            <Image
+              src="/images/drone.png"
+              alt="Drone reactor inspection"
+              width={480}
+              height={300}
+              className="object-contain p-6"
+            />
+          </div>
+          <div>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 leading-snug" style={{ fontFamily: "var(--font-playfair)" }}>
+              Drones to Ensure Nuclear Plant Safety in an Emergency
+            </h2>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              For my 4th year Capstone design project teamed with Ben Agro, Jerry Chen, and Connor Lee
+              we designed drones using a wide range of hardware and software tools under the theme of
+              Nuclear Power Plant safety.
+            </p>
+            <Link
+              href="/projects/drone-reactor-inspection"
+              className="inline-block bg-[#1abc9c] text-white px-6 py-3 text-xs font-bold uppercase tracking-widest hover:bg-[#16a085] transition-colors"
+            >
+              Learn More
+            </Link>
           </div>
         </div>
       </section>
