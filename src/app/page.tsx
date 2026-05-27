@@ -170,7 +170,7 @@ export default function HomePage() {
         </svg>
 
         <div className="max-w-5xl mx-auto relative z-10">
-          <p className="text-[#1abc9c] font-semibold uppercase tracking-widest text-sm mb-3">Co-Founder & CEO</p>
+          <p className="text-[#1abc9c] font-semibold uppercase tracking-widest text-sm mb-3">Co-Founder</p>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
             Bread Technologies
           </h2>
