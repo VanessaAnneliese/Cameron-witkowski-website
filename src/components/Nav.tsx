@@ -52,6 +52,22 @@ export default function Nav() {
             )}
           </div>
 
+          <div className="relative" onMouseEnter={() => setStartupsOpen(true)} onMouseLeave={() => setStartupsOpen(false)}>
+            <button className="flex items-center gap-1 hover:text-gray-900 transition-colors cursor-pointer">
+              Start-ups
+              <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd" />
+              </svg>
+            </button>
+            {startupsOpen && (
+              <div className="absolute top-full left-0 bg-white border border-gray-200 rounded shadow-lg w-52 py-1 z-50">
+                <a href="https://aibread.com" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1abc9c] transition-colors">
+                  Bread Technologies Inc.
+                </a>
+              </div>
+            )}
+          </div>
+
           <div className="relative" onMouseEnter={() => setProjectsOpen(true)} onMouseLeave={() => setProjectsOpen(false)}>
             <button className="flex items-center gap-1 hover:text-gray-900 transition-colors cursor-pointer">
               Projects
@@ -66,22 +82,6 @@ export default function Nav() {
                     {link.label}
                   </Link>
                 ))}
-              </div>
-            )}
-          </div>
-
-          <div className="relative" onMouseEnter={() => setStartupsOpen(true)} onMouseLeave={() => setStartupsOpen(false)}>
-            <button className="flex items-center gap-1 hover:text-gray-900 transition-colors cursor-pointer">
-              Start-ups
-              <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd" />
-              </svg>
-            </button>
-            {startupsOpen && (
-              <div className="absolute top-full left-0 bg-white border border-gray-200 rounded shadow-lg w-52 py-1 z-50">
-                <a href="https://aibread.com" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1abc9c] transition-colors">
-                  Bread Technologies Inc.
-                </a>
               </div>
             )}
           </div>
