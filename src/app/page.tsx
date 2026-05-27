@@ -263,14 +263,14 @@ export default function HomePage() {
               className="text-2xl text-gray-800 leading-relaxed text-center md:text-left"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              I recently appeared on the Machine Learning Street Talk podcast with my friend Aman Bhargava.
+              I appeared on the Machine Learning Street Talk podcast with my friend Aman Bhargava.
             </p>
           </div>
           <div className="aspect-video bg-gray-900 rounded overflow-hidden">
             {/* Replace VIDEO_ID with the actual YouTube video ID */}
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/VIDEO_ID"
+              src="https://www.youtube.com/embed/Bpgloy1dDn0"
               title="Machine Learning Street Talk — Mapping GPT revealed something strange"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
