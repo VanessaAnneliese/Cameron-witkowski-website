@@ -79,7 +79,7 @@ export default function HomePage() {
   return (
     <>
       {/* ── HERO ── */}
-      <section className="relative bg-white overflow-hidden min-h-[600px] flex items-center justify-center py-16">
+      <section className="relative bg-white overflow-hidden min-h-[570px] flex items-center justify-center py-10">
         {/* Decorations */}
         <div className="absolute top-0 left-0">
           <TealHexStripes />
