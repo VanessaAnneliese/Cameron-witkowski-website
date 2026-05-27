@@ -8,50 +8,76 @@ export default function UndergradThesisPage() {
         A Novel Approach to Model Transcription in Humans
       </h1>
 
-      <div className="text-gray-700">
-        <p className="text-xl text-gray-600 mb-8">
-          Integrating a biological understanding of transcription with an engineering &amp; AI background,
-          I present a novel approach to comprehensively model gene expression using cutting-edge machine
-          learning techniques.
-        </p>
-
-        <h2 className="text-2xl font-bold text-[#2c3e50] mt-10 mb-4">Overview</h2>
-        <p className="mb-4">
-          This thesis presents a comprehensive machine learning model for gene expression prediction,
-          drawing on 330 million supervised examples sourced from GTEx cell-specific gene expression
-          experiments. The work bridges biological intuition about transcription with modern deep learning
-          architectures.
-        </p>
-
-        <h2 className="text-2xl font-bold text-[#2c3e50] mt-10 mb-4">Pipeline</h2>
-        <div className="grid grid-cols-3 gap-4 mb-8">
-          {["Experimental Data", "Model Design", "Training & Testing"].map((step, i) => (
-            <div key={step} className="bg-[#f8f9fa] rounded-lg p-5 text-center border border-gray-100">
-              <div className="w-12 h-12 rounded-full bg-[#1abc9c] text-white flex items-center justify-center font-bold text-xl mx-auto mb-3">
-                {i + 1}
-              </div>
-              <p className="font-semibold text-gray-700">{step}</p>
-            </div>
-          ))}
-        </div>
-
-        <h2 className="text-2xl font-bold text-[#2c3e50] mt-10 mb-4">Dataset</h2>
-        <p className="mb-4">
-          330 million supervised examples were sourced from GTEx (Genotype-Tissue Expression) cell-specific
-          gene expression experiments, providing a rich and diverse training set spanning multiple tissue
-          types and conditions.
-        </p>
-
-        <div className="mt-8">
+      <div className="text-gray-700 space-y-6 leading-relaxed text-lg">
+        <p>
+          I began this project in September, 2022 and finished it in April 2023.{" "}
           <a
             href="http://cameronwitkowski.com/wp-content/uploads/2023/05/Thesis_Final_Report_1.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-[#1abc9c] text-white px-6 py-3 rounded font-semibold hover:bg-[#16a085] transition-colors"
+            className="text-[#1abc9c] hover:underline"
           >
-            Read the Thesis (PDF)
+            Read my complete work in my final report.
+          </a>{" "}
+          The code for this project can also be found on{" "}
+          <a
+            href="https://colab.research.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#1abc9c] hover:underline"
+          >
+            Colab
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://github.com/witkowski-cam"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#1abc9c] hover:underline"
+          >
+            Github
           </a>
-        </div>
+          . Below, I have written a brief introduction to some of the core ideas underpinning my work.
+        </p>
+
+        <h2 className="text-2xl font-bold text-[#2c3e50] mt-10 mb-4">An Analogy for Transcription</h2>
+        <p>
+          Imagine that you are RNA Polymerase II and you are out, looking for a place to eat. The restaurant
+          in this analogy represents a special region of DNA that you recognize as viable to bind to and
+          initiate transcription. Biologists call this DNA region the transcriptional start site (TSS). Then
+          the goal of my work is essentially to predict the likelihood of you going to any particular
+          restaurant. Now when you&apos;re out and about, you can&apos;t just go anywhere. Instead, you look
+          for certain attributes, perhaps a high ratings, a level of popularity, or certain cuisine.
+          Similarly, there are a small set of patterns (AKA motifs) in the DNA sequence, known as core
+          promoter elements, which RNA Polymerase II must recognize to bind.
+        </p>
+        <p>
+          Now let&apos;s say you didn&apos;t go out alone, but instead brought with you a group of friends.
+          Let&apos;s also say that you are getting the bill and will make the final decision where to go.
+          Your friends then represent proteins called transcription factors. Each of your friends has
+          different tastes and perhaps a specific place they want to go. Similarly, each transcription factor
+          has one relatively specific DNA pattern they seek to bind to. In the decision making process, the
+          interaction of your friends with restaurants plays a significant role in decision making. For
+          instance, if your friends have gone to a particular restaurant before, they can say whether it was
+          good or bad. Now, Biologists identify the action of transcription factors as the primary mechanism
+          determining gene expression, so the role that friends play in this analogy is critical.
+        </p>
+        <p>
+          Imagine we are marketing managers and can run millions of experiments of this decision making
+          process with 20,000 potential restaurants and 17,000 sets of friends, in each experiment measuring
+          whether you all go there to eat. In theory, with this data, we should be able to get a very good
+          idea of the equation governing transcription, and machine learning techniques offer the perfect
+          tool to approximate this equation effectively.
+        </p>
+
+        <h2 className="text-2xl font-bold text-[#2c3e50] mt-10 mb-4">What is Transcription</h2>
+        <p>
+          Transcription is the first step that occurs in the production of proteins in the nucleus of every
+          cell of your body. In this step, a large, complex molecule called RNA Polymerase II binds to your
+          DNA sequence and, using it as a template, produces a string of mRNA. In the next step, called
+          translation, this mRNA sequence is translated by ribosomes into a chain of amino acids, according
+          to the genetic code.
+        </p>
       </div>
 
       <div className="mt-12 pt-8 border-t border-gray-200">
