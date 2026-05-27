@@ -46,7 +46,7 @@ export default function Nav() {
               </svg>
             </button>
             {projectsOpen && (
-              <div className="absolute top-full left-0 mt-1 bg-white border border-gray-200 rounded shadow-lg w-64 py-1 z-50">
+              <div className="absolute top-full left-0 bg-white border border-gray-200 rounded shadow-lg w-64 py-1 z-50">
                 {projectLinks.map((link) => (
                   <Link key={link.href} href={link.href} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1abc9c] transition-colors">
                     {link.label}
@@ -66,7 +66,7 @@ export default function Nav() {
               </svg>
             </button>
             {writingOpen && (
-              <div className="absolute top-full left-0 mt-1 bg-white border border-gray-200 rounded shadow-lg w-52 py-1 z-50">
+              <div className="absolute top-full left-0 bg-white border border-gray-200 rounded shadow-lg w-52 py-1 z-50">
                 {writingLinks.map((link) => (
                   <Link key={link.href} href={link.href} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#1abc9c] transition-colors">
                     {link.label}
