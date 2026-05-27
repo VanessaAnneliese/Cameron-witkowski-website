@@ -1,27 +1,12 @@
 import Link from "next/link";
 
-const footerLinks = [
-  { label: "My Story", href: "/story" },
-  { label: "Masters Thesis", href: "/projects/masters-thesis" },
-  { label: "Undergrad Thesis", href: "/projects/undergrad-thesis" },
-  { label: "Drone Reactor Inspection", href: "/projects/drone-reactor-inspection" },
-  { label: "Sexually Selected Computer Code", href: "/projects/sexually-selected-computer-code" },
-  { label: "Dynamics of Probabilistic Neurons", href: "/projects/dynamics-of-probabilistic-neurons" },
-  { label: "Minimax Chess Engine", href: "/projects/minimax-chess-engine" },
-  { label: "Telescope", href: "/projects/telescope" },
-  { label: "Publications", href: "/publications" },
-  { label: "Logic as Space", href: "/writing/logic-as-space" },
-  { label: "Some Ideas About Things", href: "/writing/some-ideas-about-things" },
-  { label: "The Sun", href: "/writing/the-sun" },
-];
-
 export default function Footer() {
   return (
     <footer className="bg-[#2c3e50] text-white mt-16">
       <div className="max-w-6xl mx-auto px-4 py-10">
-        <div className="grid md:grid-cols-3 gap-10 mb-10">
+        <div className="grid md:grid-cols-5 gap-10 mb-10">
           {/* Branding + contact */}
-          <div>
+          <div className="md:col-span-2">
             <p className="font-semibold text-lg mb-1">Cameron S. Witkowski</p>
             <a href="mailto:cwitkowski@rogers.com" className="text-gray-400 text-sm hover:text-[#1abc9c] transition-colors">
               cwitkowski@rogers.com
@@ -45,31 +30,51 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Links col 1 */}
+          {/* Home */}
           <div>
-            <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">Pages</p>
+            <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">Home</p>
             <ul className="space-y-2">
-              {footerLinks.slice(0, 6).map((l) => (
+              <li><Link href="/story" className="text-gray-400 text-sm hover:text-[#1abc9c] transition-colors">My Story</Link></li>
+            </ul>
+          </div>
+
+          {/* Projects */}
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">Projects</p>
+            <ul className="space-y-2">
+              {[
+                { label: "Masters Thesis", href: "/projects/masters-thesis" },
+                { label: "Undergrad Thesis", href: "/projects/undergrad-thesis" },
+                { label: "Drone Reactor Inspection", href: "/projects/drone-reactor-inspection" },
+                { label: "Sexually Selected Code", href: "/projects/sexually-selected-computer-code" },
+                { label: "Probabilistic Neurons", href: "/projects/dynamics-of-probabilistic-neurons" },
+                { label: "Minimax Chess Engine", href: "/projects/minimax-chess-engine" },
+                { label: "Telescope", href: "/projects/telescope" },
+              ].map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} className="text-gray-400 text-sm hover:text-[#1abc9c] transition-colors">
-                    {l.label}
-                  </Link>
+                  <Link href={l.href} className="text-gray-400 text-sm hover:text-[#1abc9c] transition-colors">{l.label}</Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* Links col 2 */}
+          {/* Writing + Publications */}
           <div>
-            <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">&nbsp;</p>
-            <ul className="space-y-2">
-              {footerLinks.slice(6).map((l) => (
+            <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">Writing</p>
+            <ul className="space-y-2 mb-6">
+              {[
+                { label: "Logic as Space", href: "/writing/logic-as-space" },
+                { label: "Some Ideas About Things", href: "/writing/some-ideas-about-things" },
+                { label: "The Sun", href: "/writing/the-sun" },
+              ].map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} className="text-gray-400 text-sm hover:text-[#1abc9c] transition-colors">
-                    {l.label}
-                  </Link>
+                  <Link href={l.href} className="text-gray-400 text-sm hover:text-[#1abc9c] transition-colors">{l.label}</Link>
                 </li>
               ))}
+            </ul>
+            <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">Publications</p>
+            <ul className="space-y-2">
+              <li><Link href="/publications" className="text-gray-400 text-sm hover:text-[#1abc9c] transition-colors">All Publications</Link></li>
             </ul>
           </div>
         </div>
