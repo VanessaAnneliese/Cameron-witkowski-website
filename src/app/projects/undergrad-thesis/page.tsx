@@ -10,7 +10,7 @@ export default function UndergradThesisPage() {
           <h1 className="text-6xl font-bold text-[#2c3e50] leading-tight mb-8">
             Undergraduate<br />Thesis
           </h1>
-          <p className="text-gray-700 leading-relaxed text-lg">
+          <p className="max-w-3xl text-gray-700 leading-relaxed text-lg">
             I began this project in September, 2022 and finished it in April 2023.{" "}
             <a
               href="https://cameronwitkowski.com/wp-content/uploads/2023/05/Thesis_Final_Report_1.pdf"
