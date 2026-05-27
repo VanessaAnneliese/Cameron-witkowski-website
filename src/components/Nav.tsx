@@ -106,10 +106,6 @@ export default function Nav() {
             )}
           </div>
 
-          <a href="https://twitter.com/witkowski_cam" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors">
-            Twitter
-          </a>
-
           {/* Search icon */}
           <button className="text-gray-500 hover:text-gray-900 transition-colors" aria-label="Search">
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -144,7 +140,6 @@ export default function Nav() {
           {writingLinks.map((link) => (
             <Link key={link.href} href={link.href} onClick={() => setMobileOpen(false)} className="pl-3 py-1.5 hover:text-[#1abc9c]">{link.label}</Link>
           ))}
-          <a href="https://twitter.com/witkowski_cam" target="_blank" rel="noopener noreferrer" className="py-2 hover:text-[#1abc9c]">Twitter</a>
         </div>
       )}
     </nav>

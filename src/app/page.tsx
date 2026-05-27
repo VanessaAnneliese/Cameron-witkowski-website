@@ -298,12 +298,15 @@ export default function HomePage() {
           <p className="text-gray-500 mb-10">A Mathematical Model of Morphogenesis</p>
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
-              {/* Video placeholder */}
-              <div className="bg-gray-300 aspect-video flex items-center justify-center rounded">
-                <svg className="w-16 h-16 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-              </div>
+              <video
+                className="w-full rounded"
+                autoPlay
+                loop
+                muted
+                playsInline
+              >
+                <source src="/images/brain_edited.mp4" type="video/mp4" />
+              </video>
               <div className="mt-4">
                 <Link href="/projects/masters-thesis" className="inline-block border border-[#1abc9c] text-[#1abc9c] px-6 py-2.5 text-sm font-medium hover:bg-[#1abc9c] hover:text-white transition-colors">
                   Learn more
