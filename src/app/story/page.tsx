@@ -5,21 +5,9 @@ export default function MyStoryPage() {
   return (
     <div className="max-w-5xl mx-auto px-6 py-16">
 
-      {/* Title — centered, large, Space Mono */}
-      <h1
-        className="text-center font-bold mb-16"
-        style={{ fontFamily: "var(--font-playfair)", fontSize: "clamp(3rem, 8vw, 5.5rem)", lineHeight: 1.1 }}
-      >
-        My Story
-      </h1>
-
-      {/* Lead sentence — large bold monospace, left-aligned */}
-      <p
-        className="font-bold mb-10 max-w-2xl"
-        style={{ fontFamily: "var(--font-space-mono)", fontSize: "clamp(1.2rem, 2.5vw, 1.5rem)", lineHeight: 1.65 }}
-      >
-        I grew up in the quiet, suburban town of Brooklin, ON.
-      </p>
+      <p className="text-[#1abc9c] font-semibold uppercase tracking-wide text-sm mb-2">About</p>
+      <h1 className="text-4xl font-bold text-[#2c3e50] mb-6">My Story</h1>
+      <p className="text-gray-500 italic mb-12">I grew up in the quiet, suburban town of Brooklin, ON.</p>
 
       {/* First section: text left, baby photo right */}
       <div className="grid md:grid-cols-2 gap-10 items-start mb-12">
