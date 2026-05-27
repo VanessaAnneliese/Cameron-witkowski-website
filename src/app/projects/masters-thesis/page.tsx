@@ -61,6 +61,21 @@ export default function MastersThesisPage() {
           translational symmetries inherent in biological systems. Training data is derived from
           experimental observations of cellular development across multiple model organisms.
         </p>
+
+        <h2 className="text-2xl font-bold text-[#2c3e50] mt-10 mb-4">Status</h2>
+        <p className="mb-4">
+          This project is currently on hold. Midway through my Master&apos;s degree, I made the
+          decision to step away from academia and pursue the frontier of AI directly — founding a
+          startup called{" "}
+          <a href="https://breadtechnologies.com" target="_blank" rel="noopener noreferrer" className="text-[#1abc9c] hover:underline">
+            Bread Technologies
+          </a>
+          . A high-level overview and code for the project can be found on{" "}
+          <a href="https://github.com/Cameron7195" target="_blank" rel="noopener noreferrer" className="text-[#1abc9c] hover:underline">
+            Github
+          </a>
+          .
+        </p>
       </div>
 
       <div className="mt-12 pt-8 border-t border-gray-200">
