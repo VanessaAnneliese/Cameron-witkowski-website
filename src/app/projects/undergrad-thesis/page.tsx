@@ -30,7 +30,7 @@ export default function UndergradThesisPage() {
           </a>{" "}
           and{" "}
           <a
-            href="https://github.com/witkowski-cam"
+            href="https://github.com/Cameron7195/IBBME_TR300M_Project"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#1abc9c] hover:underline"
