@@ -185,7 +185,7 @@ export default function HomePage() {
               </p>
               <p>
                 At Bread, we build tools that give businesses visibility into how AI talks about
-                them. Our flagship product, <strong className="text-white">OpenLens</strong>, is
+                them. Our flagship product, <a href="https://openlens.com" target="_blank" rel="noopener noreferrer" className="text-[#1abc9c] font-bold hover:underline">OpenLens</a>, is
                 a free tool that reveals how AI systems discuss your business — and what you can
                 do about it.
               </p>
