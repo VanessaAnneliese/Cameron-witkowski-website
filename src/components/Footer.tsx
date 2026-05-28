@@ -84,7 +84,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-3 text-gray-500 text-xs">
-          <span>© 2023 CAMERON S. WITKOWSKI | ALL RIGHTS RESERVED</span>
+          <span>© 2026 CAMERON S. WITKOWSKI | ALL RIGHTS RESERVED</span>
           <div className="flex gap-5">
             <Link href="/terms" className="hover:text-[#1abc9c] transition-colors">Terms of Use</Link>
             <Link href="/privacy" className="hover:text-[#1abc9c] transition-colors">Privacy Policy</Link>
